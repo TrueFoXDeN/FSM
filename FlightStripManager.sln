@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightStripManager", "FlightStripManager\FlightStripManager.csproj", "{9BBBF092-D092-46A9-BE2B-97580C97275D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BBBF092-D092-46A9-BE2B-97580C97275D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBBF092-D092-46A9-BE2B-97580C97275D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBBF092-D092-46A9-BE2B-97580C97275D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBBF092-D092-46A9-BE2B-97580C97275D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F7EE708-F97B-4357-9AA0-8C60461B3472}
+	EndGlobalSection
+EndGlobal
