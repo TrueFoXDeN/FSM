@@ -35,6 +35,9 @@
             this.multisessionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sEttingsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.connectAsHostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.connectAsClientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.disconnectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,6 +76,10 @@
             // 
             // multisessionToolStripMenuItem
             // 
+            this.multisessionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.connectAsHostToolStripMenuItem,
+            this.connectAsClientToolStripMenuItem,
+            this.disconnectToolStripMenuItem});
             this.multisessionToolStripMenuItem.Name = "multisessionToolStripMenuItem";
             this.multisessionToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.multisessionToolStripMenuItem.Text = "Multisession";
@@ -88,9 +95,27 @@
             // sEttingsToolStripMenuItem1
             // 
             this.sEttingsToolStripMenuItem1.Name = "sEttingsToolStripMenuItem1";
-            this.sEttingsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.sEttingsToolStripMenuItem1.Size = new System.Drawing.Size(116, 22);
             this.sEttingsToolStripMenuItem1.Text = "Settings";
             this.sEttingsToolStripMenuItem1.Click += new System.EventHandler(this.sEttingsToolStripMenuItem1_Click);
+            // 
+            // connectAsHostToolStripMenuItem
+            // 
+            this.connectAsHostToolStripMenuItem.Name = "connectAsHostToolStripMenuItem";
+            this.connectAsHostToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.connectAsHostToolStripMenuItem.Text = "Connect as Host";
+            // 
+            // connectAsClientToolStripMenuItem
+            // 
+            this.connectAsClientToolStripMenuItem.Name = "connectAsClientToolStripMenuItem";
+            this.connectAsClientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.connectAsClientToolStripMenuItem.Text = "Connect as Client";
+            // 
+            // disconnectToolStripMenuItem
+            // 
+            this.disconnectToolStripMenuItem.Name = "disconnectToolStripMenuItem";
+            this.disconnectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.disconnectToolStripMenuItem.Text = "Disconnect";
             // 
             // Form1
             // 
@@ -117,6 +142,9 @@
         private System.Windows.Forms.ToolStripMenuItem multisessionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sEttingsToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem connectAsHostToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem connectAsClientToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem disconnectToolStripMenuItem;
     }
 }
 
